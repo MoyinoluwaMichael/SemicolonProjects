@@ -7,7 +7,6 @@ public class MyersBriggsQuestionnaireMain {
         newPersonality.setCandidateName();
         MyersBriggsQuestionnaire.displayQuestions();
         MyersBriggsQuestionnaire.analyzeResponses();
-
         newPersonality.printPersonalityTrait();
     }
 }

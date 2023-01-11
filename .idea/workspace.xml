@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9923e7c2-e2c7-4d10-afd8-3531f655748a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/christmassSnacks/myersBriggsQuestionnaire/MyersBriggsQuestionnaireMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/christmassSnacks/myersBriggsQuestionnaire/MyersBriggsQuestionnaireMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +25,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Moyinoluwa Michael/IdeaProjects/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moyinoluwa Michael/IdeaProjects/inTheBeginning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.MyersBriggsQuestionnaireMain">
     <configuration name="MyersBriggsQuestionnaireMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="christmassSnacks.myersBriggsQuestionnaire.MyersBriggsQuestionnaireMain" />
@@ -81,7 +82,8 @@
       <updated>1673215096682</updated>
       <workItem from="1673215098299" duration="1633000" />
       <workItem from="1673264416240" duration="1960000" />
-      <workItem from="1673290712774" duration="637000" />
+      <workItem from="1673290712774" duration="3054000" />
+      <workItem from="1673418659885" duration="3799000" />
     </task>
     <servers />
   </component>
