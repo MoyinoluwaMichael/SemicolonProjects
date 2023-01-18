@@ -1,22 +1,23 @@
 package christmassSnacks.checkOutApp;
-
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class CheckOutApp {
+    private final
     Scanner scanner = new Scanner(System.in);
     private String customerName;
     private String cashierName;
     private double discount;
     private double subTotal;
-    private ArrayList<String> items = new ArrayList<>();
-    private ArrayList<Integer> quantity = new ArrayList<>();
-    private ArrayList<Double> price = new ArrayList<>();
+    private final ArrayList<String> items = new ArrayList<>();
+    private final ArrayList<Integer> quantity = new ArrayList<>();
+    private final ArrayList<Double> price = new ArrayList<>();
     private double vat;
-    private double billTotaL;
+    private double billTotal;
     private double discountRate;
+    private final Time time = new Time();
+
 
 
     public void registerCustomer() {
@@ -64,7 +65,7 @@ public class CheckOutApp {
                 ========================================================
                 THIS IS NOT A RECEIPT KINDLY PAY %.2f
                 ========================================================
-                """, billTotaL);
+                """, billTotal);
     }
 
     private void analyzeSales() {
@@ -81,7 +82,7 @@ public class CheckOutApp {
     }
 
     private void calculateBillTotal() {
-        billTotaL = subTotal - discount + vat;
+        billTotal = subTotal - discount + vat;
     }
 
     public void calculateDiscount(double discountRate) {
@@ -105,7 +106,7 @@ public class CheckOutApp {
                         ========================================================
                                        THANK YOU FOR YOUR PATRONAGE
                         ========================================================""",
-                amountPaid, amountPaid - billTotaL);
+                amountPaid, amountPaid - billTotal);
     }
 
     private static void load(String message) throws InterruptedException {
@@ -127,8 +128,8 @@ public class CheckOutApp {
                 Customer Name: %s
                 ========================================================
                                   ITEM     QTY    PRICE       TOTAL(NGN)
-                --------------------------------------------------------            
-                               """, LocalDateTime.now(), getCashierName(), getCustomerName());
+                --------------------------------------------------------
+                               """, time, getCashierName(), getCustomerName());
         analyzeSales();
         System.out.printf("""
                 --------------------------------------------------------
@@ -137,7 +138,7 @@ public class CheckOutApp {
                                            VAT @ 7.50%s: %15.2f
                 ========================================================
                                             Bill Total: %15.2f
-                """, subTotal, discount, "%", vat, billTotaL);
+                """, subTotal, discount, "%", vat, billTotal);
     }
 
     private static void addNewLine() {
